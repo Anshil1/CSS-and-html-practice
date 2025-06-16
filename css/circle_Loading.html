@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Circle Loading</title>
+  <style>
+    .loading{
+      display: flex;
+      justify-content: center;
+
+    }
+    .box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: ; */
+      
+    }
+    .circle{
+      height: 50px;
+      width: 50px;
+      border: 10px solid #0f8b8d ;
+      border-top: 10px solid #ec9a29;
+      border-radius:50%;
+      align-items: center;
+      /* background-color: aqua; */
+      animation:Anshil 750ms ease-in  infinite normal ;
+
+    }
+    @keyframes Anshil{
+      from{transform: rotate(0deg);}
+      to{transform: rotate(360deg);}
+    }
+  </style>
+
+</head>
+<body>
+  <h1 class="loading">Loading...</h1>
+  <div class="box">
+    <div class="circle">
+
+    </div>
+  </div>
+</body>
+</html>

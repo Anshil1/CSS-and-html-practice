@@ -1,0 +1,119 @@
+*{
+  background-color: rgb(235, 213, 224);
+}
+.first h1{
+  color: aqua;
+  background-color: blanchedalmond;
+
+}
+.first p{
+  color: rgb(28, 35, 28);
+  background-color: blueviolet;
+}
+p{
+  color: darkblue;
+  background-color: aqua;
+}
+/* hr{
+ font-weight: bold;
+} */
+.box{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .box1{
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .box1 .box2 {
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(140, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box .box1 .box2 .box3{
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(203, 249, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box .box1 .box2 .box3 .box4{
+  height: 10px;
+  width: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(241, 104, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.squre_box{
+  display: flex;
+  flex-wrap: block;
+  align-items: center;
+  justify-content: ;
+
+}
+.squre_box1{
+  height: 30px;
+  width: 200px;
+  background-color:orange ;
+}
+.squre_box2{
+  height: 30px;
+  width: 200px;
+  background-color:white ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.squre_box2 .circle{
+  height:29px;
+  width: 30px;
+  border: 1px solid blue;
+  border-radius: 50%;
+ 
+
+}
+ 
+.squre_box3{
+  height: 30px;
+  width: 200px;
+  background-color:green ;
+}
+
+
+.bar{
+  
+  background-image: url(anshil.jpg);
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  /* background-position:inherit; */
+  background-repeat:no-repeat;
+  background-position: center;
+
+}
