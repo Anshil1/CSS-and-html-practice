@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+/**Box1**/
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.logo{
+    height: 28px;
+    width: 86px;
+    background-image: url("R.png");
+    background-size:contain;
+
+
+}
+.border{
+    border: 1.5px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/**Box2**/
+.nav-address{
+    height: 50px;
+    width: 200px;
+    
+   
+}
+.add-first{
+    color:#cccccc;
+    font-size: 12px; 
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.add-logo{
+    display: flex;
+
+}
+.add-second{
+    margin-left: 3px;
+}
+/**Box3**/
+.nav-search{
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.nav-search:hover {
+    
+    border: 2px solid rgb(198, 150, 5);
+    height: 42px;
+    width: 399px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}    
+
+.search-logo{
+    background-color: rgb(248, 203, 70);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+
+    height: 42px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-logo:hover{
+    background-color: rgb(207, 158, 9);
+}
+.select-search{
+    background-color: #cccccc;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 42px;
+    width: 50px;
+    
+}
+.select-search:hover {
+    background-color: #bcbbbb;
+      
+}
+
+
+input{
+    height: 36px;
+    width: 300px;
+}
+/**Box4**/
+span{
+
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.sign-sec{
+    
+    font-size: 14px;
+    
+}
+/**Box5**/
+.return{
+    font-size: 12px;
+
+}
+.order{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+/**Box**/
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+/**nav-sec**/
+
+.nav-sec{
+    color: White;
+    height: 40px;
+    background-color: rgb(78, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.nav-sec-prime{
+    background-color: rgb(78, 75, 75);
+  
+}
+.bar  {
+    
+    width: 60px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+    
+.a1{
+    font-size: 14px;
+    width: 118px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a2{
+    font-size: 14px;
+    width: 41px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a3{
+    font-size: 14px;
+    width: 102px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a4{
+    font-size: 14px;
+    width: 91px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a5{
+    font-size: 14px;
+    width: 67px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a6{
+    font-size: 14px;
+    width: 114px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a7{
+    font-size: 14px;
+    width: 100px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a8{
+    font-size: 14px;
+    width: 90px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-sec section option {
+    border:none;
+    background-color:rgb(78, 75, 75) ;
+}
+/**Hero-section**/
+.hero-section{
+    background-image: url("hero.jpg");
+    height: 400px;
+}
+/**shop-section**/
+.shop-section{
+   height: 450px;
+  
+   background-color: #cccccc;
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   
+   
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: #FFFFFF;
+    transform: translate y(300px);
+
+}
+/**box-img**/
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+b{
+    font-size: 20px;
+}
+.product{
+    margin-left: 25px;
+}
+.box-img{
+    border: 2px solid black;
+    background-image: url('headphones.jpg');
+    background-size: contain;
+    height: 260px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+} 
+.electronic-prod{
+    margin-left: 25px;
+}
+
+.box-img-1{
+    border: 2px solid black;
+    background-image: url('gadgets.jpg');
+    background-size: contain;
+    height: 260px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Mobiles-accessories{
+    margin-left: 25px;
+}
+.box-img-2{
+    border: 2px solid black;
+    background-image: url('mobile-accessories.jpeg');
+    background-size: contain;
+    height: 260px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.things{
+    margin-left: 25px;
+}
+.box-img-3{
+    border: 2px solid black;
+    background-image: url('Cosmetic-Brands.jpg');
+    background-size: contain;
+    height: 260px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/**foot-panal1**/
+.foot-panal1  {
+    height: 50px;
+    width: 1200px;
+    color: #FFFFFF;
+    
+    background-color: rgb(78, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+/**foot-panal2**/
+.foot-panal2{
+    height: 300px;
+    width: 1200px;
+    color: #FFFFFF;
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin:10px;
+}
+.b{
+    margin-bottom: 10px;
+}
+/**foot-panal3**/
+.foot-panal3{
+    height: 100px;
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.6px solid white;
+
+}
+.anshil{
+    background-color: rgb(21, 20, 20);
+    color: white;
+    margin-inline: 30px;
+}
+/**foot-panal4**/
+.foot-panal4{
+    background-color: rgb(21, 20, 20);
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.foot-panal5{
+    background-color: rgb(21, 20, 20);
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    
+}

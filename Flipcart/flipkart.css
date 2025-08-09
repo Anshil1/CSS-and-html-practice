@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#E0E0E0;
+}
+/**navbar**/
+.navbar{
+    height: 65px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+
+}
+/**flipkart-logo **/
+.flipkart-logo .img{
+    height: 30px;
+    width: 113px;
+    background-image: url("flipkart.png");
+    background-size: contain;
+    background-position: contain;
+    color: white;
+}
+.flipkart-logo .logo-text-1{
+    font-size: 12px;
+    color: #9e9e9e;
+
+}
+.flipkart-logo .logo-text-2{
+    font-size: 12px;
+    color: #ffc200;;
+
+}
+/**search-bar**/
+.search-bar{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    background-color: #E3F2FD;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px;
+    border-top-right-radius :8px;
+    border-bottom-right-radius:8px;
+}
+.search-bar .icon{
+    height: 40px;
+    width: 44px;
+    font-size: large;
+    /* font-weight: lighter; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-bar input{
+    height: 36px;
+    width: 500px;
+    font-size: larger;
+    background-color: #E3F2FD;
+    border: none;
+
+}
+.for-seller{
+    height:24px;
+    width: 150px; 
+   
+}
+.for-seller .seller-box{
+    display: flex;
+}
+
+.for-seller .seller-box a  {
+    height: 24px;
+    width: 24px; 
+}
+.for-seller .seller-box .text{
+    height: 24px;
+    width: 116px;
+    margin-top: 2px;
+}
+/**button **/
+button{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    
+
+}
+button:hover{
+    background-color: #1E88E5;
+}
+button .sign-in-logo{
+    height: 24px;
+    width: 24px;
+
+}
+button .sign-in-text{
+    height: 24px;
+    width: 60px;
+    font-size: 17px;
+    margin-top: 4px;
+}
+button .cap{
+    margin-top: 2px;
+}
+/**nav-cart**/
+.nav-cart{
+    height: 24px;
+    width:60px;
+    display: flex;
+    align-items: center;
+
+}
+/** hero-bar **/
+body .hero-bar{
+    margin: 6px 8px 0 10px;  
+}
+.hero-bar{
+    height: 130px;
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    border: border-box;
+    border: 2px  solid white;
+    background-color: white;
+}
+.box{
+    margin: 8px 0 0 0;
+
+}
+.hero-bar .hero-img2 div{
+    display:block;
+    justify-items: space-evenly;
+}
+/**hero-bar1**/
+body .hero-bar1{
+    margin: 6px 8px 0 10px;  
+}
+.hero-bar1 {
+  
+    height: 130px;
+    width: 98%;
+    border: border-box;
+} 
+.hero-bar1 .hero1-img{
+    height: 130px;
+    width: 100%;
+    background-size: contain;
+    background-image: url("1.jpg");
+    background-position:contain;
+}  
+/**hero-bar2**/
+body .hero-bar2{
+    margin: 6px 8px 0 10px;  
+}
+.hero-bar2 {
+  
+    height: 130px;
+    width: 98%;
+    border: border-box;
+} 
+.hero-bar2 .hero2-img{
+    height: 130px;
+    width: 100%;
+    background-image: url("hero2.jpg");
+    background-size: contain;
+    background-position: left 35px top 20px;
+}  
+/**hero-bar3**/
+body .hero-box3{
+    margin: 6px 8px 0 10px;
+    height: 310px;
+    width: 98%;
+    border: 2px solid black;
+    background-color: whitesmoke;
+
+}
+.hero-box3.Detail{
+    height:80px;
+    width: 40%;
+}
+/* table tr {
+    height: 218px;
+    width:25%;
+    border: 2px solid yellow;
+    background-image: url("mobile1.jpg");
+    background-size: contain;
+    /* background-position: ; 
+} */
+table th{
+    border:2ps solid black;
+}
